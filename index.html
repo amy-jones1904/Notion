@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amy Jones | Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Amy<span>.</span>Jones</a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <p class="hero-greeting">Hello, my name is</p>
+            <h1 class="hero-name">Amy Jones</h1>
+            <h2 class="hero-tagline">I build thoughtful things for the web.</h2>
+            <p class="hero-description">
+                I'm a software engineer specializing in crafting accessible,
+                responsive, and performant digital experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">01.</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Amy, a developer who enjoys turning complex problems
+                        into simple, beautiful interfaces. My journey into programming
+                        began in 2018 when I built my first website &mdash; and I've been
+                        hooked ever since.
+                    </p>
+                    <p>
+                        Today, I focus on building accessible, human-centered products
+                        for clients and teams across a range of industries. I love
+                        learning new things and pairing modern tools with timeless
+                        design principles.
+                    </p>
+                    <p>Here are a few technologies I've been working with recently:</p>
+                    <ul class="tech-list">
+                        <li>JavaScript (ES6+)</li>
+                        <li>TypeScript</li>
+                        <li>React &amp; Next.js</li>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="avatar" aria-hidden="true">AJ</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">02.</span> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Front-End</h3>
+                    <p>Building responsive, accessible user interfaces with semantic HTML, modern CSS, and component-driven frameworks.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Back-End</h3>
+                    <p>Designing APIs and services with Node.js and Python, working with both SQL and NoSQL data stores.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Design</h3>
+                    <p>Translating ideas into wireframes and clean, intuitive layouts that prioritize usability.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tooling</h3>
+                    <p>Git, CI/CD pipelines, Docker, and modern build tools to ship reliably and often.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="section-number">03.</span> Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <div class="project-icon">{ }</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub repository">GitHub</a>
+                            <a href="#" aria-label="Live demo">Live</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Task Flow</h3>
+                    <p class="project-description">
+                        A minimal task management app with drag-and-drop boards,
+                        keyboard shortcuts, and offline support.
+                    </p>
+                    <ul class="project-tags">
+                        <li>React</li>
+                        <li>TypeScript</li>
+                        <li>IndexedDB</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#9788;</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub repository">GitHub</a>
+                            <a href="#" aria-label="Live demo">Live</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Weather Lens</h3>
+                    <p class="project-description">
+                        Hyper-local weather dashboard with hourly forecasts,
+                        radar overlays, and customizable alerts.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Next.js</li>
+                        <li>Tailwind</li>
+                        <li>OpenWeather API</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#9836;</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub repository">GitHub</a>
+                            <a href="#" aria-label="Live demo">Live</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Sound Garden</h3>
+                    <p class="project-description">
+                        A focus playlist generator that mixes ambient
+                        soundscapes based on the time of day and your mood.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Vue</li>
+                        <li>Web Audio API</li>
+                        <li>Node.js</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#9733;</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub repository">GitHub</a>
+                            <a href="#" aria-label="Live demo">Live</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Constellate</h3>
+                    <p class="project-description">
+                        A note-taking tool that links ideas into a visual
+                        graph, making patterns and connections easy to see.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Svelte</li>
+                        <li>D3.js</li>
+                        <li>SQLite</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#9998;</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub repository">GitHub</a>
+                            <a href="#" aria-label="Live demo">Live</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Inkwell</h3>
+                    <p class="project-description">
+                        A distraction-free markdown editor with live preview,
+                        themes, and seamless cloud sync.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Electron</li>
+                        <li>React</li>
+                        <li>Firebase</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-card-top">
+                        <div class="project-icon">&#9879;</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub repository">GitHub</a>
+                            <a href="#" aria-label="Live demo">Live</a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Lab Notebook</h3>
+                    <p class="project-description">
+                        A reproducible research log for data scientists,
+                        with versioned experiments and chart embeds.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>FastAPI</li>
+                        <li>PostgreSQL</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title centered"><span class="section-number">04.</span> Get in Touch</h2>
+            <p class="contact-lead">
+                I'm always open to discussing new projects, creative ideas,
+                or opportunities to be part of something great. Drop me a
+                line &mdash; I'll do my best to get back to you soon.
+            </p>
+            <a href="mailto:amy-jones28@outlook.com" class="btn btn-primary btn-large">Say Hello</a>
+
+            <ul class="contact-links">
+                <li><a href="mailto:amy-jones28@outlook.com">amy-jones28@outlook.com</a></li>
+                <li><a href="#" aria-label="GitHub profile">GitHub</a></li>
+                <li><a href="#" aria-label="LinkedIn profile">LinkedIn</a></li>
+                <li><a href="#" aria-label="Twitter profile">Twitter</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Designed &amp; built by Amy Jones &middot; &copy; 2026</p>
+        </div>
+    </footer>
+</body>
+</html>
